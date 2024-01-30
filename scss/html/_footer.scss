@@ -1,0 +1,34 @@
+//Importaciones
+@import "../utilidades/variables";
+
+// Footer
+footer {
+	background-color: $background-color_3;
+	color: $color_2;
+	padding: 10px;
+	text-align: center;
+	bottom: 0;
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+// Logo
+.footer-logo {
+	max-width: 50px;
+}
+.copyright {
+	flex-grow: 1;
+}
+// Iconos redes Sociales
+.footer-social-icons {
+	display: flex;
+	align-items: center;
+	a {
+		color: $color_1;
+		text-decoration: none;
+		margin: 0 10px;
+		font-size: 1.2em;
+	}
+}

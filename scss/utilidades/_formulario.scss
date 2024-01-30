@@ -1,0 +1,38 @@
+//Importaciones
+@import "../utilidades/variables";
+
+// Formulario Container
+.form-container {
+	flex-grow: 1;
+	max-width: 50%;
+	height: 70%;
+}
+// Formulario
+form {
+	display: flex;
+	flex-direction: column;
+	label {
+		margin-bottom: 5px;
+	}
+	input {
+		margin-bottom: 10px;
+		padding: 8px;
+		font-size: 14px;
+	}
+	textarea {
+		margin-bottom: 10px;
+		padding: 8px;
+		font-size: 14px;
+	}
+	button {
+		padding: 10px;
+		font-size: 16px;
+		background-color: $background-color_4;
+		color: $color_4;
+		border: none;
+		cursor: pointer;
+		&:hover {
+			background-color: $background-color_5;
+		}
+	}
+}
