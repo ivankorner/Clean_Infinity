@@ -1,4 +1,63 @@
 /* Añade estas reglas CSS al final de tu archivo main.css o en un archivo nuevo */
+@media (max-width: 767px) {
+	/* Estilos para pantallas menores a 768px */
+  
+	/* Estilos para el header y la navegación */
+	.navbar {
+	  padding: 10px; /* Ajusta el espaciado del menú */
+	}
+  
+	.logo {
+	  max-width: 100%; /* Hace que el logo sea responsive */
+	}
+  
+	.navbar-brand {
+	  margin-bottom: 0; /* Ajusta el espacio entre el logo y el nombre de la marca */
+	}
+  
+	.navbar-nav {
+	  flex-direction: column; /* Cambia la dirección de los elementos del menú */
+	}
+  
+	.nav-item {
+	  margin-bottom: 10px; /* Ajusta el espaciado entre elementos del menú */
+	}
+  
+	.social-icons {
+	  margin-top: 10px; /* Ajusta el espaciado entre los íconos de redes sociales */
+	}
+  
+	/* Estilos para el título principal */
+	.titulo-h1 {
+	  font-size: 24px; /* Ajusta el tamaño del título principal */
+	}
+  
+	/* Estilos para los cards de categorías */
+	.card {
+	  width: 100%; /* Hace que las tarjetas ocupen todo el ancho disponible */
+	  margin-bottom: 20px; /* Ajusta el espaciado entre las tarjetas */
+	}
+  
+	/* Estilos para el video container */
+	.video-container {
+	  margin-top: 20px; /* Ajusta el espaciado entre el video y otros elementos */
+	}
+  
+	/* Estilos para el botón */
+	.d-grid {
+	  margin-top: 20px; /* Ajusta el espaciado entre el botón y otros elementos */
+	}
+  
+	/* Estilos para el footer */
+	.footer-logo {
+	  max-width: 100%; /* Hace que el logo del footer sea responsive */
+	}
+  
+	.footer-social-icons {
+	  margin-top: 10px; /* Ajusta el espaciado entre los íconos de redes sociales en el footer */
+	}
 
+	
+	}
   
   
