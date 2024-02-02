@@ -1,0 +1,84 @@
+//Contenedor Card en Index
+.card-container {
+	display: flex;
+	justify-content: space-around;
+}
+//Contenedor Card individuales en Index
+.card {
+	width: 30%;
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	border-radius: 5px;
+	img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-weight: bold;
+		color: $color_1;
+	}
+}
+.precio {
+	font-weight: bold;
+}
+
+.button-container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: 2px solid #333;
+	cursor: pointer;
+	border-radius: 5px;
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+//Contenedor Card en Productos
+.card-container-productos {
+	@extend .card-container;
+}
+//Contenedor Card individuales en Productos
+.card-productos {
+	width: 30%;
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.stars {
+		color: $color_3;
+	}
+	p {
+		margin: 10px 0;
+	}
+	button {
+		padding: 10px 20px;
+		font-size: 16px;
+		background-color: $background-color_4;
+		color: $color_4;
+		border: none;
+		cursor: pointer;
+		&:hover {
+			background-color: $background-color_5;
+		}
+	}
+}
+.card-productosh3 {
+	margin-top: 10px;
+}

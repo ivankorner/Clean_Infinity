@@ -1,0 +1,20 @@
+//Mapa Contenedor
+.map-text-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 100%;
+	padding: 20px;
+	
+}
+.text-container {
+	max-width: 50%;
+	text-decoration: none;
+}
+.map-container {
+	max-width: 100%;
+}
+iframe {
+	width: 600px;
+	height: 300px;	
+}
