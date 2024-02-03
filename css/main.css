@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Importaciones */
 * {
   font-family: "Rubik", sans-serif;
@@ -208,7 +207,7 @@ form button:hover {
     flex-direction: column;
     align-items: center;
   }
-  .img-historia, .contacto-container img {
+  .img-historia {
     width: 100%;
     max-width: 1000px;
     min-width: 400px;
@@ -217,12 +216,17 @@ form button:hover {
   .texto-nosotros {
     box-sizing: border-box;
   }
-  /* Estilos para la sección de contacto */
   .contacto-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .img-contacto {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 10px;
   }
   .form-container {
     margin-top: 10px;
@@ -232,15 +236,18 @@ form button:hover {
   form {
     width: 100%;
   }
+  .map-container {
+    width: calc(100% - 20px);
+    max-width: 800px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
   .map-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .map-container {
-    width: 100%;
-    max-width: 800px;
   }
   .map-text-container .text-container p form {
     width: 100%;
