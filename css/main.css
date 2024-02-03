@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Importaciones */
 * {
   font-family: "Rubik", sans-serif;
@@ -113,7 +114,7 @@ video {
 .form-container {
   flex-grow: 1;
   max-width: 50%;
-  height: 70%;
+  height: 50%;
 }
 
 form {
@@ -207,19 +208,42 @@ form button:hover {
     flex-direction: column;
     align-items: center;
   }
-  .img-historia {
+  .img-historia, .contacto-container img {
     width: 100%;
     max-width: 1000px;
     min-width: 400px;
     margin: 10px;
   }
-  img {
-    width: 90%;
-    height: auto;
-    align-items: center;
-  }
   .texto-nosotros {
     box-sizing: border-box;
+  }
+  /* Estilos para la sección de contacto */
+  .contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .form-container {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  form {
+    width: 100%;
+  }
+  .map-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .map-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  .map-text-container .text-container p form {
+    width: 100%;
   }
 }
 .map-text-container {

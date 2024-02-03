@@ -69,18 +69,12 @@
     min-width: 400px;
     margin: 10px;
   }
-  img {
-    width: 90%;
-    height: auto;
-    align-items: center;
-  }
-
   .texto-nosotros {
     box-sizing: border-box;
   }
 
-   /* Estilos para la sección de contacto */
-   .contacto-container {
+  /* Estilos para la sección de contacto */
+  .contacto-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,32 +82,34 @@
   }
 
   .contacto-container img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    @extend .img-historia;
   }
 
   .form-container {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  form {
     width: 100%;
   }
 
-  /* Estilos para la sección de nuestras oficinas */
+  
   .map-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   .map-container {
     width: 100%;
+    max-width: 800px;
   }
-
-  /* Ajuste de estilos para los íconos de contacto */
-  .map-text-container .text-container p {
-    margin-bottom: 10px;
-  }
-
 
   
+  .map-text-container .text-container p {
+    form {
+      width: 100%;
+    }
+  }
 }
