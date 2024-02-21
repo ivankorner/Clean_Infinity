@@ -1,3 +1,9 @@
+//Mixin
+@mixin box-shadow($shadow...) {
+	-webkit-box-shadow: $shadow;
+	   -moz-box-shadow: $shadow;       
+			box-shadow: $shadow;
+  }
 //Mapa Contenedor
 .map-text-container {
 	display: flex;
@@ -14,9 +20,7 @@
 }
 .map-container {
 	max-width: 100%;
-	-webkit-box-shadow: 2px 11px 19px -10px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 2px 11px 19px -10px rgba(66, 68, 90, 1);
-    box-shadow: 2px 11px 19px -10px rgba(66, 68, 90, 1);
+	@include box-shadow(2px 11px 19px -10px rgba(66, 68, 90, 1));
 }
 iframe {
 	width: 600px;
