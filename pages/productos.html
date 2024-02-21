@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/main.css" />
+    <!-- Enlace a animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Enlace a Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -58,10 +63,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-lg-0 align-items-end">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -94,13 +96,12 @@
         </div>
       </nav>
     </header>
-
     <!-- Main -->
     <main>
       <!-- Titulo Princial -->
       <div class="h1-container">
-        <h1 class="titulo-h1">TODOS LOS PRODUCTOS</h1>
-      </div>  
+        <h1 class="titulo-h1 animate__animated animate__zoomIn">TODOS LOS PRODUCTOS</h1>
+      </div>
 
       <!-- Tradicionales  -->
       <section>
@@ -108,136 +109,173 @@
           <h2 class="titulo-h2" id="tradicionales">TRADICIONALES</h2>
         </div>
 
-      <div class="container">
-        <div class="row justify-content-center">
-
-          <div class="card" style="width: 18rem">
-            <img src="../img/productos/tradicional-1.jpg" class="card-img-top" alt="Aspiradora tradicional color Naranja" />
-            <div class="card-body">
-              <h5 class="card-title">Aspiradora Stihl 2310v</h5>
-              <p>Potencia de 1300W</p>
-              <p class="precio">Precio: $190.99</p>
-              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-              <a href="" class="btn btn-warning">Comprar</a>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/tradicional-1.jpg"
+                class="card-img-top"
+                alt="Aspiradora tradicional color Naranja"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora Stihl 2310v</h5>
+                <p>Potencia de 1300W</p>
+                <p class="precio">Precio: $190.99</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
             </div>
-          </div>  
-          
-          <div class="card" style="width: 18rem">
-            <img src="../img/productos/tradicional-2.jpg" class="card-img-top" alt="Aspiradora tradicional color rojo sin ruedas" />
-            <div class="card-body">
-              <h5 class="card-title">Aspiradora Yelmo r54</h5>
-              <p>Potencia de 1000W</p>
-              <p class="precio">Precio: $160.99</p>
-              <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>                
-              <a href="" class="btn btn-warning">Comprar</a>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/tradicional-2.jpg"
+                class="card-img-top"
+                alt="Aspiradora tradicional color rojo sin ruedas"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora Yelmo r54</h5>
+                <p>Potencia de 1000W</p>
+                <p class="precio">Precio: $160.99</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
             </div>
-          </div> 
 
-          <div class="card" style="width: 18rem">
-            <img src="../img/productos/tradicional-3.jpg" class="card-img-top" alt="Aspiradora tradicional industrial metal/plastico con ruedas" />
-            <div class="card-body">
-              <h5 class="card-title">Aspiradora Industrial Cgr 23wh</h5>
-              <p>Potencia de 3000W</p>
-              <p class="precio">Precio: $260.99</p>
-              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-              <a href="" class="btn btn-warning">Comprar</a>
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/tradicional-3.jpg"
+                class="card-img-top"
+                alt="Aspiradora tradicional industrial metal/plastico con ruedas"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora Industrial Cgr 23wh</h5>
+                <p>Potencia de 3000W</p>
+                <p class="precio">Precio: $260.99</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
             </div>
-          </div>                      
-        </div>
-      </div>          
-    </section>
-
-    <!-- Inalámbricas -->
-    <section>
-      <div class="h2-container">
-        <h2 class="titulo-h2" id="inalambricas">INALÁMBRICAS</h2>
-      </div>
-
-    <div class="container">
-      <div class="row justify-content-center">
-
-        <div class="card" style="width: 18rem">
-          <img src="../img/productos/inalambricas-1.jpg" class="card-img-top" alt="Aspiradora inalambrica desmontable" />
-          <div class="card-body">
-            <h5 class="card-title">Aspiradora BGH W49D</h5>
-            <p>Potencia de 1800W</p>
-            <p>Desmontable</p>
-            <p class="precio">Precio: $350.00</p>
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-            <a href="" class="btn btn-warning">Comprar</a>
           </div>
-        </div>  
-        
-        <div class="card" style="width: 18rem">
-          <img src="../img/productos/inalambricas-2.jpg" class="card-img-top" alt="Aspiradora inalambrica Electrolux color verde" />
-          <div class="card-body">
-            <h5 class="card-title">Aspiradora Electrolux EGG32</h5>
-            <p>Potencia de 1200W</p>
-            <p class="precio">Precio: $290.70</p>
-            <div class="stars">&#9733;&#9733;&#9733;</div>                
-            <a href="" class="btn btn-warning">Comprar</a>
+        </div>
+      </section>
+
+      <!-- Inalámbricas -->
+      <section>
+        <div class="h2-container">
+          <h2 class="titulo-h2" id="inalambricas">INALÁMBRICAS</h2>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/inalambricas-1.jpg"
+                class="card-img-top"
+                alt="Aspiradora inalambrica desmontable"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora BGH W49D</h5>
+                <p>Potencia de 1800W</p>
+                <p>Desmontable</p>
+                <p class="precio">Precio: $350.00</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/inalambricas-2.jpg"
+                class="card-img-top"
+                alt="Aspiradora inalambrica Electrolux color verde"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora Electrolux EGG32</h5>
+                <p>Potencia de 1200W</p>
+                <p class="precio">Precio: $290.70</p>
+                <div class="stars">&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/inalambricas-3.jpg"
+                class="card-img-top"
+                alt="Aspiradora inalambrica minimalista Samsung White"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aspiradora Samsung White re422</h5>
+                <p>Potencia de 1500W</p>
+                <p class="precio">Precio: $290.00</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
           </div>
-        </div> 
+        </div>
+      </section>
 
-        <div class="card" style="width: 18rem">
-          <img src="../img/productos/inalambricas-3.jpg" class="card-img-top" alt="Aspiradora inalambrica minimalista Samsung White" />
-          <div class="card-body">
-            <h5 class="card-title">Aspiradora Samsung White re422</h5>
-            <p>Potencia de 1500W</p>
-            <p class="precio">Precio: $290.00</p>
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-            <a href="" class="btn btn-warning">Comprar</a>
+      <!-- Accesorios  -->
+      <section>
+        <div class="h2-container">
+          <h2 class="titulo-h2" id="accesorios">ACCESORIOS</h2>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/accesorios-1.jpg"
+                class="card-img-top"
+                alt="Accesorios de plastico para aspiradoras"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kit Accesorios plastico durable</h5>
+                <p>Medida Universal</p>
+                <p class="precio">Precio: $25.000</p>
+                <div class="stars">&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/accesorios-2.jpg"
+                class="card-img-top"
+                alt="Accesorios para espiradoras de metal y plasticos durables"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Kit Accesorios universal plastico/metal
+                </h5>
+                <p>Caños de metal</p>
+                <p class="precio">Precio: $50.000</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="../img/productos/accesorios-3.jpg"
+                class="card-img-top"
+                alt="Kit de accesorios para aspiradoras de plasticos + manguera"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Kit Accesorios boble plastico durable
+                </h5>
+                <p>Medida Universal</p>
+                <p>Extensor</p>
+                <p class="precio">Precio: $40.000</p>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <a href="" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
           </div>
-        </div>                      
-      </div>
-    </div>          
-  </section>
-
-  <!-- Accesorios  -->
-  <section>
-    <div class="h2-container">
-      <h2 class="titulo-h2" id="accesorios">ACCESORIOS</h2>
-    </div>
-
-  <div class="container">
-    <div class="row justify-content-center">
-
-      <div class="card" style="width: 18rem">
-        <img src="../img/productos/accesorios-1.jpg" class="card-img-top" alt="Accesorios de plastico para aspiradoras" />
-        <div class="card-body">
-          <h5 class="card-title">Kit Accesorios plastico durable</h5>          
-          <p>Medida Universal</p>
-          <p class="precio">Precio: $25.000</p>
-          <div class="stars">&#9733;&#9733;</div>                
-          <a href="" class="btn btn-warning">Comprar</a>
         </div>
-      </div>  
-      
-      <div class="card" style="width: 18rem">
-        <img src="../img/productos/accesorios-2.jpg" class="card-img-top" alt="Accesorios para espiradoras de metal y plasticos durables" />
-        <div class="card-body">
-          <h5 class="card-title">Kit Accesorios universal plastico/metal</h5>
-          <p>Caños de metal</p>
-          <p class="precio">Precio: $50.000</p>
-          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-          <a href="" class="btn btn-warning">Comprar</a>
-        </div>
-      </div> 
-
-      <div class="card" style="width: 18rem">
-        <img src="../img/productos/accesorios-3.jpg" class="card-img-top" alt="Kit de accesorios para aspiradoras de plasticos + manguera" />
-        <div class="card-body">
-          <h5 class="card-title">Kit Accesorios boble plastico durable</h5>
-          <p>Medida Universal</p>
-          <p>Extensor</p>
-          <p class="precio">Precio: $40.000</p>
-          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>                
-          <a href="" class="btn btn-warning">Comprar</a>
-        </div>
-      </div>                      
-    </div>
-  </div>          
-</section>     
+      </section>
     </main>
 
     <!-- Footer -->
